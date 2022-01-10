@@ -1,0 +1,70 @@
+{
+  "id": 373233,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "generic",
+  "array": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 30,
+      "type": "GUID",
+      "formula": null
+    },
+    {
+      "name": "isActive",
+      "null_percentage": 0,
+      "type": "Boolean",
+      "formula": null
+    },
+    {
+      "name": "picture",
+      "null_percentage": 0,
+      "type": "Dummy Image URL",
+      "minHeight": 32,
+      "maxHeight": null,
+      "minWidth": 32,
+      "maxWidth": 250,
+      "format": "png",
+      "formula": null
+    },
+    {
+      "name": "age",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 10,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "email",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "about",
+      "null_percentage": 0,
+      "type": "Sentences",
+      "min": 1,
+      "max": 10,
+      "formula": null
+    },
+    {
+      "name": "registered",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/02/2021",
+      "max": "01/02/2022",
+      "format": "%Y-%m-%dT%H:%M:%SZ",
+      "formula": null
+    }
+  ]
+}
